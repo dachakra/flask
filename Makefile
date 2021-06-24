@@ -1,10 +1,10 @@
 # Must have `sentry-cli` installed globally
 # Following variable must be passed in:
 
-#SENTRY_AUTH_TOKEN=<your_auth_token>
+SENTRY_AUTH_TOKEN= 411693e684054d91a6b74f5cac0355e9ba03041dcce64c279a3d52d5718ade5b
 
 SENTRY_ORG=testorg-az
-SENTRY_PROJECT=flask
+SENTRY_PROJECT=flask-demo-j5
 VERSION=`sentry-cli releases propose-version`
 
 REPOSITORY=us.gcr.io/sales-engineering-sf
