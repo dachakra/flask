@@ -9,7 +9,7 @@ sentry_sdk.init(
     dsn="https://865783007c8e4b338d4b4be496abe296@o87286.ingest.sentry.io/5832884",
     integrations=[FlaskIntegration()],
     release=os.environ.get("VERSION")
-)
+    )
 
 app = Flask(__name__)
 CORS(app)
